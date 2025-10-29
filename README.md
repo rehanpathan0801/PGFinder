@@ -61,7 +61,7 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ## 🧩 Project Structure
 
-
+```bash
 pgfinder/
 │
 ├── frontend/               # React frontend
@@ -89,7 +89,7 @@ pgfinder/
 ├── package.json            # Root configuration
 └── README.md               # Documentation
 
-
+```
 
 ## ⚡ Installation & Setup
 

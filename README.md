@@ -53,9 +53,9 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React.js, React Router, Tailwind CSS, React Query, Framer Motion  
+**Frontend:** React.js, React Router, Tailwind CSS, React Query.  
 **Backend:** Node.js, Express.js, MongoDB, Mongoose  
-**Other Tools:** JWT, Cloudinary, Multer, bcryptjs, Helmet  
+**Other Tools:** JWT, Cloudinary, NodeMailer, bcryptjs.
 
 ---
 
@@ -69,17 +69,17 @@ pgfinder/
 │   ├── src/
 │   │   ├── components/     # Reusable components
 │   │   ├── pages/          # Page components
-│   │   ├── utils/          # Utility functions
+│   │   ├── utils/          
 │   │   └── index.js        # Entry point
 │   ├── package.json
 │   └── tailwind.config.js
 │
 ├── backend/                # Node.js backend
-│   ├── controllers/        # Controller logic
+│   ├── controllers/        
 │   ├── models/             # MongoDB models
 │   ├── routes/             # API routes
-│   ├── middleware/         # Custom middleware
-│   ├── config/             # DB & environment config
+│   ├── middleware/         
+│   ├── config/             
 │   ├── server.js           # Entry point
 │   ├── .env                # Environment variables (ignored)
 │   ├── .env.example        # Example environment file
@@ -95,8 +95,8 @@ pgfinder/
 
 ### Prerequisites
 - Node.js (v14+)
-- MongoDB (local or Atlas)
-- npm or yarn
+- MongoDB (Atlas)
+- npm 
 
 ### Steps
 
@@ -116,6 +116,8 @@ JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
+EMAIL_USER=your_email_username_here
+EMAIL_PASS=your_email_password_here
 
 ```
 ## Start the development servers
@@ -129,25 +131,12 @@ Full MERN stack project setup from scratch
 
 REST API design with authentication and validation
 
-State management using React Query and Context API
-
 Integration of Cloudinary for image handling
 
-Deployment readiness for Render (backend) and Vercel (frontend)
+Integration of NodeMailer for contact and feedback
 
 ---
 
-🧠 Learning Highlights
-
-Full MERN stack project setup from scratch
-
-REST API design with authentication and validation
-
-State management with React Query and Context API
-
-Integration of Cloudinary for image handling
-
-Deployment readiness for Render & Vercel
 
 ## 🧑‍💻 Author
 
@@ -156,5 +145,5 @@ Rehan Pathan
 🌐 GitHub Profile : https://github.com/rehanpathan0801
 
 
-⭐ If you like this project, don’t forget to star the repository!
-PGFinder — Making PG accommodation search simple and efficient 🏠✨
+## ⭐ If you like this project, don’t forget to star the repository!
+##  PGFinder — Making PG accommodation search simple and efficient 🏠✨

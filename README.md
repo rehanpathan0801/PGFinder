@@ -104,10 +104,10 @@ pgfinder/
 git clone <repository-url>
 cd pgfinder
 
-# Install dependencies (backend + frontend)
+## Install dependencies (backend + frontend)
 npm run install-all
 
-# Create a .env file in backend/
+## Create a .env file in backend/
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -115,7 +115,7 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-# Start the development servers
+## Start the development servers
 npm run dev
 
 
@@ -146,7 +146,7 @@ Integration of Cloudinary for image handling
 
 Deployment readiness for Render & Vercel
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Rehan Pathan
 💼 MERN Stack Developer | Passionate about full-stack projects

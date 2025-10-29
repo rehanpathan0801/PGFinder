@@ -46,24 +46,31 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 pgfinder/
 │
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── utils/
-│ │ └── index.js
-│ └── package.json
+├── frontend/               # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/     # Reusable components
+│   │   ├── pages/          # Page components
+│   │   ├── utils/          # Utility functions
+│   │   └── index.js        # Entry point
+│   ├── package.json
+│   └── tailwind.config.js
 │
-├── backend/ # Node.js backend
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── server.js
-│ └── package.json
+├── backend/                # Node.js backend
+│   ├── controllers/        # Controller logic
+│   ├── models/             # MongoDB models
+│   ├── routes/             # API routes
+│   ├── middleware/         # Custom middleware
+│   ├── config/             # DB & environment config
+│   ├── server.js           # Entry point
+│   ├── .env                # Environment variables (ignored)
+│   ├── .env.example        # Example environment file
+│   └── package.json
 │
-└── README.md
+├── .gitignore              # Ignored files list
+├── package.json            # Root configuration
+└── README.md               # Documentation
 
----
 
 ## ⚡ Installation & Setup
 

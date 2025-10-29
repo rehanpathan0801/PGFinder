@@ -1,13 +1,13 @@
 # 🏠 PGFinder - MERN Stack PG Accommodation Platform
 
-A full-stack web application to help students and professionals **find and manage Paying Guest (PG) accommodations** easily.  
-Built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** with a clean, modern, and fully responsive UI.
+A full-stack web application to help students and professionals **find and manage Paying Guest (PG) accommodations easily**.  
+Built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)** with a **clean, modern, and fully responsive UI**.
 
 ---
 
 ## 🚀 Overview
 
-PGFinder connects **PG owners** and **tenants** on a single platform.  
+**PGFinder** connects PG owners and tenants on a single platform.  
 Owners can list and manage their PGs, while tenants can search, filter, and contact owners directly — all in one place.
 
 ---
@@ -16,7 +16,7 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ### 👩‍💼 For PG Owners
 - Manage all PG listings through a dashboard  
-- Add/edit/delete listings with multiple images  
+- Add / edit / delete listings with multiple images  
 - View and respond to tenant inquiries  
 - Track views and engagement analytics  
 
@@ -28,8 +28,8 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ### ⚙️ General Features
 - Secure authentication (JWT-based)  
-- Cloud image uploads with Cloudinary  
-- Responsive and modern UI using Tailwind CSS  
+- Cloud image uploads with **Cloudinary**  
+- Responsive and modern UI using **Tailwind CSS**  
 - Real-time feedback and toast notifications  
 
 ---
@@ -44,6 +44,7 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ## 🧩 Project Structure
 
+```bash
 pgfinder/
 │
 ├── frontend/               # React frontend
@@ -70,6 +71,7 @@ pgfinder/
 ├── .gitignore              # Ignored files list
 ├── package.json            # Root configuration
 └── README.md               # Documentation
+
 
 
 ## ⚡ Installation & Setup

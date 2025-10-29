@@ -145,5 +145,5 @@ Rehan Pathan
 🌐 GitHub Profile : https://github.com/rehanpathan0801
 
 
-## ⭐ If you like this project, don’t forget to star the repository!
-##  PGFinder — Making PG accommodation search simple and efficient 🏠✨
+## ⭐ If you like this project, don’t forget to star the repository! 
+### PGFinder — Making PG accommodation search simple and efficient 🏠✨

@@ -12,6 +12,23 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ---
 
+
+## 🖼️ Screenshots
+
+### 🏠 Homepage
+![Homepage](./assets/screenshots/homepage.png)
+
+### 🔐 Login Page
+![Login](./assets/screenshots/login.png)
+
+### 📋 Dashboard
+![Dashboard](./assets/screenshots/adminDashboard.png)
+
+### 🔎 Search & Filters
+![Search Results](./assets/screenshots/filter.png)
+
+---
+
 ## 🔑 Features
 
 ### 👩‍💼 For PG Owners

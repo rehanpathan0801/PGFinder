@@ -108,6 +108,8 @@ cd pgfinder
 npm run install-all
 
 ## Create a .env file in backend/
+```bash
+
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -115,6 +117,7 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
+```
 ## Start the development servers
 npm run dev
 

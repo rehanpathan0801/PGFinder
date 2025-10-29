@@ -72,7 +72,7 @@ pgfinder/
 ├── package.json            # Root configuration
 └── README.md               # Documentation
 
-
+---
 
 ## ⚡ Installation & Setup
 

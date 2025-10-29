@@ -61,7 +61,7 @@ Owners can list and manage their PGs, while tenants can search, filter, and cont
 
 ## 🧩 Project Structure
 
-```bash
+
 pgfinder/
 │
 ├── frontend/               # React frontend
@@ -89,7 +89,7 @@ pgfinder/
 ├── package.json            # Root configuration
 └── README.md               # Documentation
 
----
+
 
 ## ⚡ Installation & Setup
 
@@ -99,7 +99,7 @@ pgfinder/
 - npm or yarn
 
 ### Steps
-```bash
+
 # Clone the repo
 git clone <repository-url>
 cd pgfinder
@@ -117,6 +117,22 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 # Start the development servers
 npm run dev
+
+
+---
+🧠 Learning Highlights
+
+Full MERN stack project setup from scratch
+
+REST API design with authentication and validation
+
+State management using React Query and Context API
+
+Integration of Cloudinary for image handling
+
+Deployment readiness for Render (backend) and Vercel (frontend)
+
+---
 
 🧠 Learning Highlights
 
